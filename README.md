@@ -10,7 +10,7 @@ This Python script extracts textual content from a list of URLs, performs Natura
 
 ## Requirements:
 - Python 3.x
-- Libraries: pandas, requests, BeautifulSoup, numpy, nltk, string, matplotlib, seaborn
+- Libraries: pandas, requests, BeautifulSoup, numpy, nltk, string
 
 ## Instructions:
 1. Install the required libraries using pip:
@@ -22,7 +22,7 @@ import nltk
 nltk.download('punkt')
 
 Prepare your input data in an Excel file ('Input.xlsx') with columns 'URL_ID' and 'URL'.
-Run the script 'nlp_text_analysis.py'. The script will perform data extraction, NLP tasks, and generate output scores.
+Run the script 'NLP_Text_Extraction_And_Analysis.ipynb'. The script will perform data extraction, NLP tasks, and generate output scores.
 The script will create an output CSV file ('output_scores.csv') containing the computed linguistic metrics for each URL.
 
 ##Note:
